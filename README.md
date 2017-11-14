@@ -1,18 +1,20 @@
-# Editr
+# Challenge facultatif S7-J2
+Intitulé : **Bootstrap**  
+https://github.com/O-clock-Explorer/s05-exo-responsive-web-design-GuillaumeD84
 
-Intégration responsive type blog
+Guillaume DURAND  
+Promo : Explorer  
+S7-J2 | 14/11/2017
 
-## Maquettes
+Formateur : Jean-Christophe  
+Type : Bootstrap
 
-Disponibles dans le dossier `elements/`
+## Objectif
+Rendre un site responsive grâce à Bootstrap.
 
-## Fonts
-
-Roboto Slab 400 & 700 : disponible chez Google Fonts
-
-Arial
-
-## Couleurs
-
-Rouge : #F56A6A
-Gris léger : #F5F6F7
+## Détails des images fournies
+Les images contenues dans le dossier 'elements' correspondent aux résultats attendus lors de la consultation du site via divers périphériques.
+* Smartphone : autre.png  
+* Tablette : tablet-desktop.png  
+* PC de Bureau : desktop hd.png  
+* Ecran large : wide.png
