@@ -131,3 +131,19 @@ footer {
 /* Nos breakpoints : 750 / 1000 / 1200 */
 
 /* RWD (Responsive Web Design) */
+
+/* Desktops */
+@media screen and (min-width: 992px) {
+  #master-heading div {
+    /* Nécessaire pour ne pas déformer l'image (par défaut : stretch)*/
+    align-items: flex-start;
+  }
+
+  #master-heading hgroup {
+    text-align: right;
+  }
+
+  #master-heading img {
+    width: 50%;
+  }
+}
