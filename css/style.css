@@ -132,13 +132,13 @@ footer {
 
 /* RWD (Responsive Web Design) */
 
+#master-heading div {
+  /*Nécessaire pour ne pas déformer l'image (par défaut : stretch)*/
+  align-items: flex-start;
+}
+
 /* Desktops */
 @media screen and (min-width: 992px) {
-  #master-heading div {
-    /* Nécessaire pour ne pas déformer l'image (par défaut : stretch)*/
-    align-items: flex-start;
-  }
-
   #master-heading hgroup {
     text-align: right;
   }
