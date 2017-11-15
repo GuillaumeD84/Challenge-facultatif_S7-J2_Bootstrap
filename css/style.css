@@ -128,7 +128,16 @@ footer {
   text-align: right;
 }
 
-/* Nos breakpoints : 750 / 1000 / 1200 */
+/* Nos breakpoints : 768 / 992 / 1200 */
+
+html {
+  font-size: 1rem;
+}
+
+body.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 /* RWD (Responsive Web Design) */
 
@@ -137,8 +146,21 @@ footer {
   align-items: flex-start;
 }
 
+/* Tablettes */
+@media screen and (min-width: 768px) {
+  /* On augmente légèrement la taille du texte à 14px */
+  body {
+    font-size: 0.875rem;
+  }
+}
+
 /* Desktops */
 @media screen and (min-width: 992px) {
+  /* On augmente légèrement la taille du texte à 16px */
+  body {
+    font-size: 1rem;
+  }
+
   #master-heading hgroup {
     text-align: right;
   }
